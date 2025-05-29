@@ -4,5 +4,6 @@ import mkcert from "vite-plugin-mkcert";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "dist",
   plugins: [react(), mkcert()],
 });
